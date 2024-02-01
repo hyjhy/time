@@ -33,19 +33,42 @@ span {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 94%;
+    top: 85%;
     left: 79%;
-    transform: translate(-79%, -94%);
+    transform: translate(-79%, -85%);
 }
+
+.q {
+    background-color: rgba(1, 2, 1, 0.68);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 85%;
+    left: 79%;
+    transform: translate(-79%, -85%);
+
+}
+
 
 .t {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 10%;
-    left: 22%;
-    transform: translate(-22%, -10%);
+    top: 17%;
+    left: 23%;
+    transform: translate(-23%, -17%);
 }
+
+.r {
+    background-color: rgba(1, 2, 1, 0.68);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 17%;
+    left: 23%;
+    transform: translate(-23%, -17%);
+}
+
 
 .md {
     width: 50px;
@@ -60,20 +83,9 @@ span {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 88%;
+    top: 80%;
     left: 76%;
-    transform: translate(-76%, -88%);
-}
-
-.q {
-    background-color: rgba(1, 2, 1, 0.68);
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 94%;
-    left: 79%;
-    transform: translate(-79%, -94%);
-
+    transform: translate(-76%, -80%);
 }
 
 .w {
@@ -81,9 +93,9 @@ span {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 88%;
+    top: 80%;
     left: 76%;
-    transform: translate(-76%, -88%);
+    transform: translate(-76%, -80%);
 
 }
 
@@ -100,15 +112,6 @@ span {
 }
 
 
-.r {
-    background-color: rgba(1, 2, 1, 0.68);
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 10%;
-    left: 22%;
-    transform: translate(-22%, -10%);
-}
 
 
 /* 포지션 아이콘 끝 */
@@ -118,9 +121,9 @@ span {
     width: 230px;
     height: 80px;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 80%;
-    transform: translate(-80%, -10%);
+    transform: translate(-80%, -15%);
 }
 
 /* .lol-bg{
