@@ -181,3 +181,15 @@ button {
     position: relative;
     top: 50px;
 }
+
+section > div {
+    background-color: rgba(0, 0, 0, 0.739);
+    width: 1350px;
+    height: 380px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%,-4%);  
+    border-radius: 10px;
+}
