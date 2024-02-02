@@ -78,7 +78,9 @@ img {
     height: 35px;
 }
 
-.list > pre, b, span{
+.list>pre,
+b,
+span {
     color: white;
     font-family: "Beaufort for LOL", serif;
 }
@@ -182,7 +184,7 @@ button {
     top: 50px;
 }
 
-section > div {
+section>div {
     background-color: rgba(0, 0, 0, 0.739);
     width: 1350px;
     height: 380px;
@@ -190,6 +192,12 @@ section > div {
     position: absolute;
     top: 4%;
     left: 50%;
-    transform: translate(-50%,-4%);  
+    transform: translate(-50%, -4%);
     border-radius: 10px;
+}
+
+.pop {
+    width: 500px;
+    height: 300px;
+    padding: 40px;
 }
