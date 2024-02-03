@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* 이미지에 대한 스타일 */
+    img {
+      display: none; /* 초기에는 이미지를 숨깁니다 */
+    }
+  </style>
+  <title>Your Website</title>
+</head>
+<body>
+
+  <!-- 웹페이지의 내용을 추가하세요 -->
+
+  <!-- 지연시킬 이미지 -->
+  <img id="delayedImage" src="../img/맵페이지.png" alt="Your Image">
+
+  <script>
+    // JavaScript를 사용하여 이미지를 2초 후에 나타나게 함
+    setTimeout(function() {
+      var delayedImage = document.getElementById('delayedImage');
+      delayedImage.style.display = 'block'; // 이미지를 보이도록 설정
+    }, 2000); // 2초 지연
+  </script>
+
+</body>
+</html>

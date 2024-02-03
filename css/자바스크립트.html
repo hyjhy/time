@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* 이미지에 대한 스타일 */
+    img {
+      display: none; /* 초기에는 이미지를 숨깁니다 */
+    }
+  </style>
+  <title>Your Website</title>
+</head>
+<body>
+
+  <!-- 웹페이지의 내용을 추가하세요 -->
+
+  <!-- 나타날 이미지 -->
+  <img id="fadeInOutImage" src="../img/고화질맵.jpeg" alt="Your Image">
+
+  <script>
+    // JavaScript를 사용하여 이미지를 나타나게 함
+    var fadeInOutImage = document.getElementById('fadeInOutImage');
+    
+    fadeInOutImage.style.display = 'block'; // 이미지를 보이도록 설정
+    
+    // 2초 후에 이미지를 사라지게 함
+    setTimeout(function() {
+      fadeInOutImage.style.display = 'none'; // 이미지를 숨기도록 설정
+    }, 2000); // 2초 지연
+  </script>
+
+</body>
+</html>
