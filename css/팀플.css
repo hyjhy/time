@@ -200,4 +200,5 @@ section>div {
     width: 500px;
     height: 300px;
     padding: 40px;
+    border-radius: 10px;
 }
